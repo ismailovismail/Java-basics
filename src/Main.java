@@ -87,5 +87,34 @@ public class Main {
             }
             System.out.println(i+"==");
         }
+
+        int i =0;
+
+        while (i<10){
+            System.out.println(i+"a");
+            i++;
+        }
+
+        int battery=100;
+        do {
+
+          battery--;
+          if (battery == 90) break;
+            System.out.println("battery"+battery);
+        }while (battery>80);
+
+        for (int j = 1; j < 10; j++) {
+            for (int k = 0; k < 9-j; k++) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k <j ; k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+
+       Methods.info();
+        String g=Methods.info();
+        System.out.println("String="+g);
     }
 }
