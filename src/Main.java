@@ -1,7 +1,10 @@
+import Calculator.Calculate;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("netice="+(int) Calculate.calculates());
       double a = 4;
       double b = 2;
       double c =a/b ;

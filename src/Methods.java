@@ -1,3 +1,5 @@
+
+
 public class Methods {
     public static void main(String[] args) {
         getInfo();
@@ -6,6 +8,7 @@ public class Methods {
         System.out.println("String="+b);
         double total=increment(4,5);
         System.out.println((int)total);
+
     }
     public static void getInfo(){
         System.out.println("Hello World");
